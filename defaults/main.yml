@@ -1,4 +1,5 @@
 ---
 administration_users: []
 local_users: []
+local_groups: []
 users_env_var_prefix: ""
