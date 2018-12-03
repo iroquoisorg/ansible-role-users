@@ -2,3 +2,4 @@
   service:
     name: sshd
     state: reloaded
+  when: not ci_build

@@ -20,3 +20,7 @@ local_groups: []
 users_env_var_prefix: ""
 
 ```
+
+# Development
+
+Please check [development guide](DEVELOPMENT.md) for details about developing and testing this role.
