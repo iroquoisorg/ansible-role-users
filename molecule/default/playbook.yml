@@ -4,5 +4,9 @@
   become: true
   vars:
     ci_build: true
+    local_users:
+      - { name: "john" }
+    users_remove:
+      - { name: "john" }
   roles:
     - role: ansible-role-users
