@@ -19,6 +19,8 @@ install:
   - pip install docker
 
 script:
+  - molecule test --scenario-name add_user
+  - molecule test --scenario-name remove_user
   - molecule test
 
 notifications:

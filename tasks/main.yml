@@ -63,3 +63,11 @@
   user:
     name: www-data
     shell: /usr/sbin/nologin
+
+- name: Remove users
+  user:
+    name: "{{ item.name }}"
+    state: absent
+    remove: true
+  with_items: "{{ users_remove }}"
+  when: users_remove is defined

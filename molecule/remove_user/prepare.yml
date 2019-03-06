@@ -7,3 +7,7 @@
       apt:
         name: openssh-server
         state: present
+    - name: Add user john
+      user:
+        name: john
+        state: present
