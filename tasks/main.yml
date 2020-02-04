@@ -5,7 +5,7 @@
     line: "Defaults env_keep+={{ users_env_var_prefix }}*"
     insertafter: EOF
     state: present
-  when: users_env_var_prefix != ""
+  when: users_env_var_prefix
 
 - name: Ensure group admin exists
   group:

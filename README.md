@@ -4,7 +4,7 @@
 
 Ansible role for users
 
-This role was prepared and tested for Ubuntu 16.04.
+This role was prepared and tested for Ubuntu 18.04.
 
 # Installation
 
